@@ -4,17 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Blogs</title>
-    <link rel="stylesheet" href="styles/blog.css">
+    <link rel="stylesheet" href="styles/nav.css">
 </head>
 <body>
     <header>
-            <nav>
-                <ul>
-                    <li><a href="Home.html">Home</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="About.html">About</a></li>  
-                </ul>              
-            </nav>
+        <nav>
+            <ul>
+                <li><a href="audio.html">Audio Video</a></li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                    <ul class="dropdown">
+                        <li><a href="audio.html">Audio</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="table.html">Table</a></li>
+                    </ul>
+                </li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
             <article>
@@ -23,7 +32,7 @@
                     <p>Published on: <time datetime="05-01-2025">5th January 2025</time></p>
                 </header>
                 <figure>
-                    <img width="50%" src="Background.png" alt="">
+                    <img width="100px" src="Background.png" alt="">
                     <figcaption>There is no image of my trip</figcaption>
                 </figure>
                 <section>
